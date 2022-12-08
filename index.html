@@ -14581,14 +14581,14 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Difference-b/w-list-and-array.">Difference b/w list and array.<a class="anchor-link" href="#Difference-b/w-list-and-array.">&#182;</a></h1><p>List:- List can store multiple data type. eg:- list1=[1,"Gaurav",True,7j]</p>
 <p>Array:- Array can store only 1 data type. eg.:- array1 = [1,2,3,4,5]</p>
-<p>S.No.   List    Array
-1   List is used to collect items that usually consist of elements of multiple data types.  An array is also a vital component that collects several items of the same data type.
-2   List cannot manage arithmetic operations.   Array can manage arithmetic operations.
-3   It consists of elements that belong to the different data types.    It consists of elements that belong to the same data type.
-4   When it comes to flexibility, the list is perfect as it allows easy modification of data.   When it comes to flexibility, the array is not suitable as it does not allow easy modification of data.
-5   It consumes a larger memory.    It consumes less memory than a list.
-6   In a list, the complete list can be accessed without any specific looping.  In an array, a loop is mandatory to access the components of the array.
-7   It favors a shorter sequence of data.   It favors a longer sequence of data.</p>
+
+<pre><code>1:- List is used to collect items that usually consist of elements of multiple data types.  An array is also a vital component that collects several items of the same data type.
+2:- List cannot manage arithmetic operations.   Array can manage arithmetic operations.
+3:- It consists of elements that belong to the different data types.    It consists of elements that belong to the same data type.
+4:- When it comes to flexibility, the list is perfect as it allows easy modification of data.   When it comes to flexibility, the array is not suitable as it does not allow easy modification of data.
+5:- It consumes a larger memory.    It consumes less memory than a list.
+6:- In a list, the complete list can be accessed without any specific looping.  In an array, a loop is mandatory to access the components of the array.
+7:- It favors a shorter sequence of data.   It favors a longer sequence of data.</code></pre>
 
 </div>
 </div>
@@ -14657,7 +14657,7 @@ List1 data type &lt;class &#39;list&#39;&gt;
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">list1</span><span class="p">)</span>
@@ -14667,6 +14667,7 @@ List1 data type &lt;class &#39;list&#39;&gt;
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;List1 data type&quot;</span><span class="p">,</span><span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;List1 data type&quot;</span><span class="p">,</span><span class="nb">type</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 
      </div>
@@ -14694,6 +14695,20 @@ List1 data type &lt;class &#39;numpy.ndarray&#39;&gt;
 List1 data type &lt;class &#39;numpy.ndarray&#39;&gt;
 </pre>
 </div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[54]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>numpy.str_</pre>
+</div>
+
 </div>
 
 </div>
@@ -15718,7 +15733,7 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>C:\Users\grvku\AppData\Local\Temp\ipykernel_22880\1296914758.py:7: RuntimeWarning: divide by zero encountered in true_divide
+<pre>C:\Users\grvku\AppData\Local\Temp\ipykernel_21416\1296914758.py:7: RuntimeWarning: divide by zero encountered in true_divide
   print(&#34;Devision of matrix\n&#34;,matrix5/matrix6)
 </pre>
 </div>
@@ -16031,8 +16046,8 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[0.27113606 0.01041733 0.91959872 0.30973048 0.58814937]
-0.010417333542824925
+<pre>[0.87151908 0.04853882 0.0661902  0.90757351 0.19085827]
+0.048538820616322864
 </pre>
 </div>
 </div>
@@ -16073,12 +16088,12 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[[0.9681524  0.40183089 0.31930951 0.24220554 0.92422477]
- [0.99392292 0.0235669  0.66541339 0.34758899 0.29529116]
- [0.4392439  0.96288398 0.87672761 0.99489556 0.76764825]
- [0.69838858 0.33917408 0.5937481  0.25196134 0.71943665]
- [0.82702562 0.61845259 0.13219022 0.23442493 0.68579195]]
-0.02356690328591815
+<pre>[[0.37991565 0.09831254 0.79318592 0.30588601 0.06684659]
+ [0.83339677 0.4052528  0.21037698 0.94223255 0.37476464]
+ [0.2470758  0.65312639 0.09703626 0.67922722 0.80644762]
+ [0.82423503 0.62795052 0.72699228 0.50854653 0.2857539 ]
+ [0.26067154 0.1145609  0.43521331 0.53453567 0.27635636]]
+0.06684658623799355
 </pre>
 </div>
 </div>
@@ -16117,7 +16132,7 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[-0.48984836  0.71530844 -1.68636483 -0.24187722  0.09710497]
+<pre>[ 0.11229543  0.62393246 -1.3782107   0.58625291 -1.57394668]
 </pre>
 </div>
 </div>
@@ -16156,7 +16171,7 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[3 9 5 8 1]
+<pre>[-1  5  0  6  3]
 </pre>
 </div>
 </div>
@@ -16195,11 +16210,11 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[[2 1 8 1 1]
- [2 6 6 8 5]
- [6 3 3 2 2]
- [5 7 5 2 1]
- [1 1 1 7 8]]
+<pre>[[1 4 5 9 7]
+ [9 6 8 1 4]
+ [6 5 5 2 5]
+ [1 2 1 3 4]
+ [1 4 5 7 4]]
 </pre>
 </div>
 </div>
@@ -16242,13 +16257,13 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[[7 5 2 6 4]
- [2 8 2 4 9]
- [2 1 5 9 3]
- [4 1 6 6 9]
- [2 1 5 3 3]]
-4.36
-2.5436980952935433
+<pre>[[6 4 4 9 1]
+ [7 5 4 6 6]
+ [2 6 5 1 3]
+ [8 6 7 6 1]
+ [2 7 1 7 4]]
+4.72
+2.324134247413432
 </pre>
 </div>
 </div>
@@ -16299,8 +16314,8 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[0.37175976 0.07963944 0.96171225 0.45695703 0.84302024 0.98404037
- 0.66015477 0.19908886 0.25331302 0.88862493]
+<pre>[0.07789556 0.56495803 0.21369619 0.84241957 0.05922789 0.36401255
+ 0.33947804 0.89462644 0.92767714 0.60168436]
 </pre>
 </div>
 </div>
@@ -16340,8 +16355,8 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>0.8430202353476648
-[0.84302024 0.98404037 0.66015477 0.19908886 0.25331302 0.88862493]
+<pre>0.059227885292011506
+[0.05922789 0.36401255 0.33947804 0.89462644 0.92767714 0.60168436]
 </pre>
 </div>
 </div>
@@ -16382,7 +16397,7 @@ Devision of matrix
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Indexing value [3 6 9]
-[0.45695703 0.66015477 0.88862493]
+[0.84241957 0.33947804 0.60168436]
 </pre>
 </div>
 </div>
@@ -16433,8 +16448,9 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[0.96171225 0.84302024 0.98404037 0.66015477 0.88862493]
-[0.37175976 0.07963944 0.45695703 0.19908886 0.25331302]
+<pre>[0.84241957 0.89462644 0.92767714]
+[0.07789556 0.56495803 0.21369619 0.05922789 0.36401255 0.33947804
+ 0.60168436]
 </pre>
 </div>
 </div>
@@ -16485,11 +16501,11 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[[7 1 2 7 6]
- [8 8 1 1 6]
- [2 3 8 6 4]
- [5 4 6 9 5]
- [6 8 2 4 4]]
+<pre>[[9 7 4 8 4]
+ [7 8 3 3 5]
+ [2 8 7 4 8]
+ [2 5 9 8 3]
+ [7 7 9 7 5]]
 </pre>
 </div>
 </div>
@@ -16530,9 +16546,9 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[8 8 1 1 6]
-1
+<pre>[7 8 3 3 5]
 3
+8
 </pre>
 </div>
 </div>
@@ -16571,9 +16587,9 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[[7 1]
- [8 8]
- [2 3]]
+<pre>[[9 7]
+ [7 8]
+ [2 8]]
 </pre>
 </div>
 </div>
@@ -16625,8 +16641,8 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[7 7 6 8 8 6 8 6 6 9 6 8]
-[1 2 1 1 2 3 4 4 2 4 4]
+<pre>[9 7 8 7 8 8 7 8 9 8 7 7 9 7]
+[4 4 3 3 2 4 2 3]
 </pre>
 </div>
 </div>
@@ -16676,11 +16692,11 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[[7 1 2 7 6]
- [8 8 1 1 6]
- [2 3 8 6 4]
- [5 4 6 9 5]
- [6 8 2 4 4]]
+<pre>[[9 7 4 8 4]
+ [7 8 3 3 5]
+ [2 8 7 4 8]
+ [2 5 9 8 3]
+ [7 7 9 7 5]]
 </pre>
 </div>
 </div>
@@ -16720,11 +16736,11 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[[7 1 2 7 6]
- [8 8 1 1 6]
+<pre>[[9 7 4 8 4]
+ [7 8 3 3 5]
  [5 5 5 5 5]
- [5 4 6 9 5]
- [6 8 2 4 4]]
+ [2 5 9 8 3]
+ [7 7 9 7 5]]
 </pre>
 </div>
 </div>
@@ -16765,9 +16781,9 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[0.37175976 0.07963944 0.96171225 0.45695703 0.84302024 0.98404037
- 0.66015477 0.19908886 0.25331302 0.88862493]
-[0.37175976 0.07963944 0.96171225 5.         5.         5.
+<pre>[0.07789556 0.56495803 0.21369619 0.84241957 0.05922789 0.36401255
+ 0.33947804 0.89462644 0.92767714 0.60168436]
+[0.07789556 0.56495803 0.21369619 5.         5.         5.
  5.         5.         5.         5.        ]
 </pre>
 </div>
@@ -16808,11 +16824,11 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[[7 1 2 6 6]
- [8 8 1 1 6]
+<pre>[[9 7 4 6 4]
+ [7 8 3 3 5]
  [5 5 5 5 5]
- [5 4 6 9 5]
- [6 8 2 4 4]]
+ [2 5 9 8 3]
+ [7 7 9 7 5]]
 </pre>
 </div>
 </div>
@@ -16892,11 +16908,11 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[[6 1 2 6 6]
- [6 6 1 1 6]
+<pre>[[6 6 4 6 4]
+ [6 6 3 3 6]
  [6 6 6 6 6]
- [6 4 6 6 6]
- [6 6 2 4 4]]
+ [2 6 6 6 3]
+ [6 6 6 6 6]]
 </pre>
 </div>
 </div>
@@ -16949,11 +16965,11 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([[6, 5, 2, 3, 2],
-       [7, 4, 3, 1, 3],
-       [8, 2, 5, 1, 3],
-       [7, 8, 5, 7, 4],
-       [6, 4, 4, 9, 4]])</pre>
+<pre>array([[2, 6, 4, 3, 3],
+       [5, 3, 6, 9, 9],
+       [9, 7, 3, 3, 4],
+       [1, 5, 3, 3, 2],
+       [6, 3, 8, 4, 5]])</pre>
 </div>
 
 </div>
@@ -16993,11 +17009,11 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[[6 5 2 3 2]
- [7 4 0 0 3]
- [8 2 0 0 3]
- [7 8 5 7 4]
- [6 4 4 9 4]]
+<pre>[[2 6 4 3 3]
+ [5 3 0 0 9]
+ [9 7 0 0 4]
+ [1 5 3 3 2]
+ [6 3 8 4 5]]
 </pre>
 </div>
 </div>
@@ -17135,11 +17151,11 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[[6 5 2 3 2]
- [7 4 3 3 3]
- [8 2 3 3 3]
- [7 8 5 7 4]
- [6 4 4 9 4]]
+<pre>[[2 6 4 3 3]
+ [5 3 3 3 9]
+ [9 7 3 3 4]
+ [1 5 3 3 2]
+ [6 3 8 4 5]]
 </pre>
 </div>
 </div>
@@ -17253,9 +17269,9 @@ Devision of matrix
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[-1.67921358  0.14828945 -1.07167043  1.5506198   0.08598949]
-[-1.67921358  0.14828945 -1.07167043  1.5506198   0.08598949]
-[-1.67921358  0.14828945 -1.07167043  5.          0.08598949]
+<pre>[-0.23643033 -0.47280346  0.13397898  0.50980435  1.00887356]
+[-0.23643033 -0.47280346  0.13397898  0.50980435  1.00887356]
+[-0.23643033 -0.47280346  0.13397898  5.          1.00887356]
 </pre>
 </div>
 </div>
